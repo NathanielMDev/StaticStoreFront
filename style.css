@@ -1,0 +1,197 @@
+body {
+    background-color: tan;
+    color: black;
+    margin: 0;
+}
+
+nav {
+    background-color: whitesmoke;
+    color: black;
+    min-height: 150px;
+    padding: 0rem calc((100vw - 1300px) / 2 );
+    text-align: center;
+    width: 100%;
+    top: 0;
+    
+    
+}
+
+.navWrap{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navWrap h1 {
+    float: left;
+    font-size: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: .5em, .5em;
+    align-items: center;
+    
+}
+
+.shoppingCart {
+    max-height: 50px;
+    
+}
+.loginInput {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.basketLoginbar {
+    display: table-row;
+    
+}
+
+audio {
+    scale: 95%;
+    color: black;
+}
+
+ 
+.headerBar {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem calc((100vw - 1300px) / 2 );
+    margin: 0 .5rem;
+}
+
+.socialLogo {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.menuLink {
+    display: table;
+    table-layout: fixed;
+    border: 10px;
+
+
+}
+
+.missionStatment {
+    display:inline-block;
+    margin: 0 auto;
+}
+
+.fAQ{
+    display:table-row;
+    margin: 0 auto;
+    padding: .5rem;   
+}
+
+#introParagraph {
+    display: table-row;
+    background-color: grey;
+}
+#article{
+    display: table-row;
+    background-color: gray;    
+}
+
+#shopTitle {
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    vertical-align: bottom;
+}
+
+.audioPanel {
+    display:inline-block;
+    border: solid 1px transparent;
+    
+}
+
+.buttonControl {
+    margin-top: 25%;
+    display: block;
+    border: solid 1px silver;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 25%;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.buttonControl button {
+    
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1rem;
+}
+
+.image {
+    background-image: url('./assets/seagullPictures/seagull4.png');
+height: 325px;
+width: 325px;
+border-radius: 25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.image2 {
+    background-image: url('./assets/seagullPictures/seagull6.png');
+height: 325px;
+width: 325px;
+border-radius: 25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.image3 {
+        background-image: url('./assets/seagullPictures/seagull3.png');
+height: 325px;
+width: 325px;
+border-radius: 25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.image4 {
+    background-image: url('./assets/seagullPictures/seagull5.png');
+height: 325px;
+width: 325px;
+border-radius: 25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.image5 {
+     background-image: url('./assets/seagullPictures/seagull1.png');
+height: 325px;
+width: 325px;
+border-radius: 25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.image6 {
+    background-image: url('./assets/seagullPictures/seagull2.png');
+height: 325px;
+width: 325px;
+border-radius: 25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
